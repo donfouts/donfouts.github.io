@@ -1,17 +1,59 @@
-# ash OPS cloud strategy and architecture
+# ASH OPS cloud strategy and Architecture
 
-[Menu Item 1]()
+[Networking]()
 
-  * # SubMenu Heading 1
-  * [SubMenu Item 1](subitem1.md)
-  * [SubMenu Item 2](subitem2.md)
+  * # Big Picture
+  * [inter-subscription](.md)
+  * [VPN / Private network](.md)
   - - - -
-  * # SubMenu Heading 2
-  * [SubMenu Item 3](subitem3.md)
+  * # Research and Development
+  * [drawing](.md)
   - - - -
-  * # SubMenu Heading 3
-  * [SubMenu Item 3](subitem3.md)
+  * # Non Production
+  * [p-1 to p-3](.md)
+  - - - -
+  * # Production
+  * [drawing](.md)
 
-[Menu Item 2](item2.md)
-- - - -
-[Menu Item 3](item3.md)
+[Security]()
+
+  * # central logging
+  - - - -
+  * # RBAC
+  - - - -
+  * # Key Vault
+
+[Platforms]()
+
+  * # App Services
+  - - - -
+  * # API Management Service
+  - - - -
+  * # Azure Cache for Redis
+  - - - -
+  * # Notification Hubs
+  - - - -
+  * # Traffic Manager
+
+[Schemas & Governance]()
+
+  * # Nameing
+
+[Ops workflows]()
+
+  * # Big Picture
+  * [application lifecycle ](.md)
+  * [Powershell Plaster](.md)
+  * [Terraform workspaces](.md)
+  * [Azure DevOps Pipelines](.md)
+  - - - -
+  * # DSO Inventory
+  * [application table](.md)
+  - - - -
+  * # New-ashapplication.ps1
+  * [plaster new application](.md)
+  - - - -
+  * # Terraform 
+  * [modulated HCL](.md)
+  * [terraform modules](.md)
+  
