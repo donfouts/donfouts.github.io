@@ -15,6 +15,7 @@ The architecture supports multiple types of services in the microservices platfo
 **Stateful**
 
 Stateful services persist data to some sort of data store. These data stores could be a SQL database, NoSQL database, or blob storage.
+
 ---
 **Stateless**
 
@@ -70,4 +71,3 @@ Understanding security risks and mitigating those risks is critical to ASH's bus
 
 There is no book on how to ramp up this solution for an enterprize with 120+ web applications, dozands of data bases, built in a method that was not cloud native.  This site is not a tutorial on how to setup xyz service in azure, this site will hopfully walk through the trials and tribulations of this journey. The cloud has "Power, Unlimited power!" and "Your focus determines your reality"
 [![the master](https://stdsoinventory0001.blob.core.windows.net/mdwikiimages/master-yoda-vector.png)](https://devopsdays.org/)
-{% raw %}{% seo %}{% endraw %}
