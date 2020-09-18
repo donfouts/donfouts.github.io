@@ -1,19 +1,29 @@
 # ASH OPS cloud strategy and Architecture
 
+[Platforms]()
+
+  * [App Services](app.md)
+  - - - -
+  * [API Management Service](apim.md)
+  - - - -
+  * [Azure Cache for Redis](redis.md)
+  - - - -
+  * [Key Vaults](Keyvault.md)
+
 [Networking]()
 
   * # Big Picture
-  * [inter-subscription](.md)
-  * [VPN / Private network](.md)
+  * [inter-subscription](big1.md)
+  * [VPN / Private network](big2.md)
   - - - -
   * # Research and Development
-  * [drawing](.md)
+  * [drawing](rnd1.md)
   - - - -
   * # Non Production
-  * [p-1 to p-3](.md)
+  * [p-1 to p-3](nonprod1.md)
   - - - -
   * # Production
-  * [drawing](.md)
+  * [drawing](prod1.md)
 
 [Security]()
 
@@ -23,18 +33,6 @@
   - - - -
   * # Key Vault
 
-[Platforms]()
-
-  * # App Services
-  - - - -
-  * # API Management Service
-  - - - -
-  * # Azure Cache for Redis
-  - - - -
-  * # Notification Hubs
-  - - - -
-  * # Traffic Manager
-
 [Schemas & Governance]()
 
   * # Nameing
@@ -42,7 +40,7 @@
 [Ops workflows]()
 
   * # Big Picture
-  * [application lifecycle ](.md)
+  * [application lifecycle](.md)
   * [Powershell Plaster](.md)
   * [Terraform workspaces](.md)
   * [Azure DevOps Pipelines](.md)
@@ -55,5 +53,5 @@
   - - - -
   * # Terraform 
   * [modulated HCL](.md)
-  * [terraform modules](.md)
+  * [terraform modules](tfmodules.md)
   
