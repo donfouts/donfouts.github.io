@@ -40,8 +40,8 @@
 [Ops workflows]()
 
   * # Big Picture
-  * [application lifecycle](.md)
-  * [Powershell Plaster](.md)
+  * [application lifecycle](applife.md)
+  * [Powershell Plaster](plaster.md)
   * [Terraform workspaces](.md)
   * [Azure DevOps Pipelines](.md)
   - - - -
