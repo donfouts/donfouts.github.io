@@ -49,7 +49,7 @@
   * [application table](.md)
   - - - -
   * # New-ashapplication.ps1
-  * [plaster new application](.md)
+  * [plaster new application](ashapplication.md)
   - - - -
   * # Terraform 
   * [modulated HCL](.md)
