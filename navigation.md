@@ -1,4 +1,4 @@
-# ASH OPS cloud strategy and Architecture
+# OPS cloud strategy and Architecture
 
 [Platforms]()
 
@@ -10,14 +10,17 @@
   - - - -
   * [Key Vaults](Keyvault.md)
 
-[Networking]()
+[Architecture]()
 
   * # Big Picture
-  * [inter-subscription](big1.md)
+  * [Inter-subscription](big1.md)
   * [VPN / Private network](big2.md)
   - - - -
+  * # Application Resource management
+
+  - - - -
   * # Research and Development
-  * [drawing](rnd1.md)
+  * [sanbox](rnd1.md)
   - - - -
   * # Non Production
   * [p-1 to p-3](nonprod1.md)
@@ -40,18 +43,17 @@
 [Ops workflows]()
 
   * # Big Picture
-  * [application lifecycle](applife.md)
+  * [Application Lifecycle](applife.md)
   * [Powershell Plaster](plaster.md)
-  * [Terraform workspaces](.md)
+  * [Terraform Workspaces](.md)
   * [Azure DevOps Pipelines](.md)
   - - - -
   * # DSO Inventory
-  * [application table](.md)
+  * [Application Table](.md)
   - - - -
   * # New-ashapplication.ps1
-  * [plaster new application](ashapplication.md)
+  * [Plaster new-application](ashapplication.md)
   - - - -
   * # Terraform 
-  * [modulated HCL](.md)
-  * [terraform modules](tfmodules.md)
+  * [Terraform Modules](tfmodules.md)
   

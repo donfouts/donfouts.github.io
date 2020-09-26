@@ -1,4 +1,4 @@
-# Summary
+# Operational Azure cloud strategy and architecture 
 
 The goal of this wiki is to document the Operational plan and strategies while moving; legacy "monalith" applications, cloud enabled applications / micro-services, and clound native microservices along with any supporting assets required.  I am going to keep this free from "fluf" - if you want to learn about why you should move to the cloud, or why you shouldn't move to the cloud there are thousands of other people who have published those conversations for your thought provoking. I will also keep the details of highly technical aspects out of this document as these specifics change too quickly to maintain a wiki with its details. I am trying to create an ecosystem where technical details that need to be discovered by technical staff for technical reasons - don't have to search wiki pages, or worry the documentation is kept up todate, but rather have tools and systems in place to get those details from the running state - and allowing the infrastructure itself be the "known good."
 
