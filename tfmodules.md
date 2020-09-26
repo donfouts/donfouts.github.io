@@ -29,15 +29,13 @@ this is where we have the provider and backend:
 using plaster to create this folder of HCL - you can automaticly set the backend key to be specific to this application, as you can't use HCL variables in the backend. 
 **note i am using azurerm 2.5 and terraform 13.3**
 
-### madatory modules
+## mandatory modules
 
-The only actual mandatory module is the resource group, as we can use this same system to use terraform to spin up IaaC web farms, Vnets, database clusters, pretty much anything terraform azurerm can do - and some of that would not need the "madatory" services a web app does. 
+The only actual mandatory module is the resource group, as we can use this same system to use terraform to spin up IaaC web farms, Vnets, database clusters, pretty much anything terraform azurerm can do - and some of that would not need the "mandatory" services a web app does. 
 
 web-applications would have the app registration module and app insights module set as defaults
 
-### resource group 
-
-#### application resource group 
+## resource group 
 
     module "resourcegroup" {
     source    = "./rg"
@@ -58,5 +56,5 @@ web-applications would have the app registration module and app insights module 
     principal_id = module.appreg.principal_id
     }
 
-note any variables you want to pass into a module have to be declared and have vaules in the root of the HCL. so i am passing in various things, like AD group objects and their IaM roles - as i am setting RBAC roles on the RG level by default. 
+note any variables you want to pass into a module have to be declared and have values in the root of the HCL. so I am passing in various things, like AD group objects and their IaM roles - as I am setting RBAC roles on the RG level by default. 
 you can also pass in values you get from other modules by default the resource group would set IAM roles for the app registration module - this allows each application to have its own app registration and unique IAM roles for the application resources per environment. 

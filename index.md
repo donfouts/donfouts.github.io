@@ -1,6 +1,6 @@
 # Operational Azure cloud strategy and architecture 
 
-The goal of this wiki is to document the Operational plan and strategies while moving; legacy "monalith" applications, cloud enabled applications / micro-services, and clound native microservices along with any supporting assets required.  I am going to keep this free from "fluf" - if you want to learn about why you should move to the cloud, or why you shouldn't move to the cloud there are thousands of other people who have published those conversations for your thought provoking. I will also keep the details of highly technical aspects out of this document as these specifics change too quickly to maintain a wiki with its details. I am trying to create an ecosystem where technical details that need to be discovered by technical staff for technical reasons - don't have to search wiki pages, or worry the documentation is kept up todate, but rather have tools and systems in place to get those details from the running state - and allowing the infrastructure itself be the "known good."
+The goal of this wiki is to document the Operational plan and strategies while moving; legacy "monolith" applications, cloud enabled applications / micro-services, and cloud native microservices along with any supporting assets required.  I am going to keep this free from "fluff" - if you want to learn about why you should move to the cloud, or why you shouldn't move to the cloud there are thousands of other people who have published those conversations for your thought provoking. I will also keep the details of highly technical aspects out of this document as these specifics change too quickly to maintain a wiki with its details. I am trying to create an ecosystem where technical details that need to be discovered by technical staff for technical reasons - don't have to search wiki pages, or worry the documentation is kept up to date, but rather have tools and systems in place to get those details from the running state - and allowing the infrastructure itself be the "known good."
 
 ---
 # Requirements 
@@ -66,7 +66,7 @@ The ability to monitor the health of the architecture and the systems running wi
 Understanding security risks and mitigating those risks is critical to ASH's business. The architecture supports the monitoring of ASH's network, servers, applications, and services to understand where vulnerabilities are and addressing them.
 
 ---
-# takeway
+## Takeaway
 
-There is no book on how to ramp up this solution for an enterprize with 120+ web applications, dozands of data bases, built in a method that was not cloud native.  This site is not a tutorial on how to setup xyz service in azure, this site will hopfully walk through the trials and tribulations of this journey. The cloud has "Power, Unlimited power!" and "Your focus determines your reality"
+There is no book on how to ramp up this solution for an enterprize with 120+ web applications, dozens of data bases, built in a method that was not cloud native.  This site is not a tutorial on how to setup xyz service in azure, this site will hopefully walk through the trials and tribulations of this journey. The cloud has "Power, Unlimited power!" and "Your focus determines your reality"
 [![the master](https://stdsoinventory0001.blob.core.windows.net/mdwikiimages/master-yoda-vector.png)](https://devopsdays.org/)
