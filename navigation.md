@@ -52,7 +52,7 @@
   * [Application Table](.md)
   - - - -
   * # New-ashapplication.ps1
-  * [Plaster new-application](ashapplication.md)
+  * [Plaster new-application](plaster.md)
   - - - -
   * # Terraform 
   * [Terraform Modules](tfmodules.md)

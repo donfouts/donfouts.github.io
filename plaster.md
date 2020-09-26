@@ -1,8 +1,8 @@
 # powershell to coordinate the automation of web apps
 
-I am not going to just post my entire script - but will post some snippits that I did struggle to find information on how to do the following actions and perhaps this can save someone some time in the future. 
+I am not going to just post my entire script - but will post some snippets that I did struggle to find information on how to do the following actions and perhaps this can save someone some time in the future. 
 
-### Azure table storage / REST opperations
+### Azure table storage / REST operations
 
 #### GET
 
@@ -26,7 +26,7 @@ I am not going to just post my entire script - but will post some snippits that 
     $queryURL = "$($tableURL)?`$filter=(PartitionKey eq 'inventory')"
     $getrequest = Invoke-RestMethod -Method GET -Uri $queryURL -Headers $headers -ContentType application/json
 
-this is the block i use to query a table based on the ParitionKey, this is using the access key of the storage account, i did find this example in a few places online: a few of them seam to be a little different and did not work - as of summer 2020.
+This is the block I use to query a table based on the ParitionKey, this is using the access key of the storage account, I did find this example in a few places online: a few of them seam to be a little different and did not work - as of summer 2020.
 
 ---
 
