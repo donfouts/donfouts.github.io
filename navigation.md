@@ -30,9 +30,9 @@
 
 [Security]()
 
-  * # central logging
+  * [logging](logging.md)
   - - - -
-  * # RBAC
+  * [RBAG](rbac.md)
   - - - -
   * # Key Vault
 
