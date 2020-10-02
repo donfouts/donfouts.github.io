@@ -9,24 +9,16 @@
   * [Azure Cache for Redis](redis.md)
   - - - -
   * [Key Vaults](Keyvault.md)
+  - - - -
+  * [IaaS Farms](farms.md)
 
 [Architecture]()
 
-  * # Big Picture
-  * [Inter-subscription](big1.md)
+  * [Subscriptions](big1.md)
+  - - - - 
   * [VPN / Private network](big2.md)
   - - - -
-  * # Application Resource management
-
-  - - - -
-  * # Research and Development
-  * [sanbox](rnd1.md)
-  - - - -
-  * # Non Production
-  * [p-1 to p-3](nonprod1.md)
-  - - - -
-  * # Production
-  * [drawing](prod1.md)
+  * [Application Resource management](rg.md)
 
 [Security]()
 
@@ -34,11 +26,11 @@
   - - - -
   * [RBAG](rbac.md)
   - - - -
-  * # Key Vault
+  * [Key Vault](kv.md)
 
 [Schemas & Governance]()
 
-  * # Nameing
+  * [Naming and tagging](names.md)
 
 [Ops workflows]()
 
