@@ -45,7 +45,7 @@
   * # Big Picture
   * [Application Lifecycle](applife.md)
   * [Powershell Plaster](plaster.md)
-  * [Terraform Workspaces](.md)
+  * [Terraform Workspaces](terraform1.md)
   * [Azure DevOps Pipelines](.md)
   - - - -
   * # DSO Inventory
