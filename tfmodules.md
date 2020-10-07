@@ -1,4 +1,4 @@
-# Modulated Terraform for multi-application deployment (non-code)
+# modulated terraform for multi-application deployment (non-code)
 
 This is my approach to be able to configure and deploy various azure services that are grouped by "application" - and using a modulated HCL makes sence.
 
@@ -131,8 +131,6 @@ Variables required for the creation of the key vault are also passed in
 
 - resource group it should be created in (notice how i pulled RG name from the RG module results)
 - sizing values like capacity/family/sku
-
-    # redis
 
     module "redis" {
     source    = "./redis"

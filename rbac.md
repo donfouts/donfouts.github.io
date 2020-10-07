@@ -1,7 +1,7 @@
 # RBAC Tables
 
 
-## Production & Non-Prod
+## production & non-prod
 
 |   | Subscription | Resource group | Service | service-role |
 |---|---|---|---|---|
@@ -19,7 +19,7 @@
 | Managers | Reader | Inheritance | Inheritance   |   |
 
 
-## Research and Development
+## research and development
 
 |   | Subscription | Resource group | Service | service-role |
 |---|---|---|---|---|

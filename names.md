@@ -25,7 +25,7 @@ Below are agreed upon names for resources - if you are building out a resource t
 |Asset type| Scope| Format|Examples|
 |--|--|--|--|
 | Virtual Machine | Resource group | vm<policy name or app name><###> | vmiis001 |
-| web app | global | app-<App Name>-<Environment>-<###>.[{azurewebsites.net}] | app-clinicdetail-rnd-001.azurewebsites.net|
+| web app | global | app-<App Name>-<Environment>-<###>.[{azurewebsites.net | app-clinicdetail-rnd-001.azurewebsites.net|
 | function app | global | func-<App Name>-<Environment>-<###>.[{azurewebsites.net}] | func-name-rnd-001.azurewebsites.net|
 | app service plan | global | plan-<grouping>-<Environment> | plan-dsowebapps-dsodev|
 | container registry | global | acr<application> | acrdsogateway|
@@ -47,5 +47,5 @@ Below are agreed upon names for resources - if you are building out a resource t
 
 |Asset type| Scope| Format|Examples|
 |--|--|--|--|
-| Key Vault | Global | kv-<vault use>-<Environment>-<###> | kv-isoautomation-rnd-001 |
-| Application Insights | Global | appi-<application name>-<Environment> | appi-clinicdetail-dev |
+| Key Vault | Global | kv-\<vault use>-\<Environment>-\<\#\#\#> | kv-isoautomation-rnd-001 |
+| Application Insights | Global | appi-\<application name>-\<Environment> | appi-clinicdetail-dev |

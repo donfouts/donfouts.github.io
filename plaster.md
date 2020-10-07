@@ -2,9 +2,9 @@
 
 I am not going to just post my entire script - but will post some snippets that I did struggle to find information on how to do the following actions and perhaps this can save someone some time in the future. 
 
-### Azure table storage / REST operations
+### azure table storage / REST operations
 
-#### GET
+#### get
 
     $storageAccountName = $stacct
     $storageAccountkey = $storagekey

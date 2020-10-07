@@ -10,7 +10,7 @@
   - - - -
   * [Key Vaults](Keyvault.md)
   - - - -
-  * [IaaS Farms](farms.md)
+  * [IaaS](farms.md)
 
 [Architecture]()
 
@@ -34,18 +34,15 @@
 
 [Ops workflows]()
 
-  * # Big Picture
   * [Application Lifecycle](applife.md)
+  - - - -
   * [Powershell Plaster](plaster.md)
   * [Terraform Workspaces](terraform1.md)
-  * [Azure DevOps Pipelines](.md)
+  * [Azure DevOps Pipelines](pipeline.md)
   - - - -
-  * # DSO Inventory
-  * [Application Table](.md)
+  * [Application Table](inventory.md)
   - - - -
-  * # New-ashapplication.ps1
   * [Plaster new-application](plaster.md)
   - - - -
-  * # Terraform 
   * [Terraform Modules](tfmodules.md)
   
