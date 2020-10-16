@@ -4,4 +4,4 @@ key vault will be used to store secrets needed for CI/CD and during application 
 
 Access to the key vault is restricted to the application registration for that specific Application, and the terraform app registration and devops AD group for management uses.
 
-![kv access](https://stdsoinventory0001.blob.core.windows.net/mdwikiimages/kv_access.png)
+![kv access](https://s3-us-west-1.amazonaws.com/donfouts.io/kv_access.png)

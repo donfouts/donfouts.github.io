@@ -1,6 +1,6 @@
 # Application lifecycle
 
-![applife](https://stdsoinventory0001.blob.core.windows.net/mdwikiimages/applife.png)
+![applife](https://s3-us-west-1.amazonaws.com/donfouts.io/applife.png)
 
 ## Exploration
 

@@ -4,7 +4,7 @@ This is my approach to be able to configure and deploy various azure services th
 
 my [plaster](plaster.md) script spits out a folder that is the name of the application, and all of the modules in their own sub-folders.
 
-![folders](https://stdsoinventory0001.blob.core.windows.net/mdwikiimages/plasterresults.png) 
+![folders](https://s3-us-west-1.amazonaws.com/donfouts.io/plasterresults.png) 
 
 ## /main.tf
 

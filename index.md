@@ -8,7 +8,7 @@ The goal of this wiki is to document the Operational plan and strategies while m
 I was provided (well helped define) the following requirements for this evolution:
 The architecture supports multiple types of services in the microservices platform; stateful, stateless, and orchestration/integration.
 
-![ash_platform_architecture](https://stdsoinventory0001.blob.core.windows.net/mdwikiimages/ASH-platform-architecture.png)
+![ash_platform_architecture](https://s3-us-west-1.amazonaws.com/donfouts.io/ASH-platform-architecture.png)
 
 ---
 ## Stateful
@@ -69,4 +69,4 @@ Understanding security risks and mitigating those risks is critical to ASH's bus
 ## Takeaway
 
 There is no book on how to ramp up this solution for an enterprize with 120+ web applications, dozens of data bases, built in a method that was not cloud native.  This site is not a tutorial on how to setup xyz service in azure, this site will hopefully walk through the trials and tribulations of this journey. The cloud has "Power, Unlimited power!" and "Your focus determines your reality"
-[![the master](https://stdsoinventory0001.blob.core.windows.net/mdwikiimages/master-yoda-vector.png)](https://devopsdays.org/)
+[![the master](https://s3-us-west-1.amazonaws.com/donfouts.io/master-yoda-vector.png)](https://devopsdays.org/)
